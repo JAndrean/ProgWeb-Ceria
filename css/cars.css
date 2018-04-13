@@ -1,0 +1,38 @@
+div.content{
+	display: grid;
+	grid-template-columns: 4fr 4fr;
+	background-color: gray;
+}
+
+.button1{
+	font-size: 20px;
+	background-color: orange;
+	height: 60%;
+	width: 80%;
+	padding: 25px 10px;
+	margin: 20px 10px;
+}
+
+.button2{
+	font-size: 20px;
+	background-color: white;
+	height: 60%;
+	width: 80%;
+	padding: 25px 10px;
+	margin: 20px 10px;
+}
+
+div.main div.container{
+	display: grid;
+	grid-template-rows: 1fr 4fr 1fr;
+}
+
+footer div.container{
+	display: grid;
+	background: gray;
+	grid-template-columns: 6fr 3fr;
+}
+
+td{
+	text-align: left;
+}
