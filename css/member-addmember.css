@@ -1,0 +1,40 @@
+.breadcrumb {
+	text-align: left;
+	margin-top: 25px;
+	margin-left: 45px;
+}
+
+}
+div.content{
+	display: grid;
+	grid-template-columns: 4fr 4fr;
+	
+}
+
+.button3{
+	width: 80px;
+	color: red;
+	background-color: red;
+	color: white;
+	
+}
+
+.content{
+	display: grid;
+	grid-template-columns: 4fr 4fr;
+	
+}
+div	.input{
+	text-align: left;
+	margin-top: 25px;
+	margin-left: 250px;
+	
+
+}
+.button4{
+	width: 80px;
+	color: white;
+	background-color: orange;
+	align-content: right;
+}
+
