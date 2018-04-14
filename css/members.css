@@ -1,24 +1,35 @@
-.breadcrumb p{
-	color: orange;
-	float : left;
+.breadcrumb {
+	text-align: left;
+	margin-top: 25px;
+	margin-left: 45px;
 }
 
-button {
-  background-color: #ca4e3d;
-  color: #FFFFFF;
-  padding: 50px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: 0px;
-  margin-top: 200px;
-  
-
-
+}
+div.content{
+	display: grid;
+	grid-template-columns: 4fr 4fr;
+	background-image: url("Diospada.jpg");
 }
 
-div .content {
-	
-	background-repeat: no-repeat;
-
+button{
+	height: 35%;
+	width: 70%;
+	padding: 25px 10px;
+	margin: 80px 10px;
 }
+.button1{
+	font-size: 20px;
+	background-color: orange;
+}
+
+.button2{
+	font-size: 20px;
+	background-color: white;
+}
+
+.content{
+	display: grid;
+	grid-template-columns: 4fr 4fr;
+	background-color: gray;
+}
+
