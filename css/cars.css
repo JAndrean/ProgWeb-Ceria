@@ -1,7 +1,8 @@
 li:nth-child(3){
-	background: white;
-	color: red;
+	background: white !important;
+	color:   #ff471a !important;
 }
+
 
 div.main>.container{
 	display: grid;
