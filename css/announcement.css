@@ -1,0 +1,21 @@
+.breadcrumb {
+	text-align: left;
+	margin-top: 25px;
+	margin-left: 45px;
+}
+
+button{
+	float: right;
+}
+button.cancel{
+	background-color: red;
+	color: white;
+}
+
+button.post{
+	background-color: orange;
+	color: white;
+}
+	
+
+	
