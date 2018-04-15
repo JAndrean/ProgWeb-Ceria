@@ -1,47 +1,54 @@
-div.content{
+li:nth-child(3){
+	background: white;
+	color: red;
+}
+
+div.main>.container{
 	display: grid;
-	grid-template-columns: 4fr 4fr;
-	background-color: gray;
+	grid-template-rows: 20% 65% 15%;
+	height: 400px;
+}
+
+.breadcrumb{
+	margin-top: 25px;
+	margin-left: 45px;
+	text-align: left;
+}
+
+.content{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background: #ddd;
 }
 
 .button1{
-	font-size: 20px;
+	margin-top: 70px; 
+	height: 55%;
+	width: 65%;
 	background-color: orange;
-	height: 35%;
-	width: 70%;
-	padding: 25px 10px;
-	margin: 80px 10px;
+	font-size: 24px;
 }
 
 .button2{
-	font-size: 20px;
+	margin-top: 70px; 
+	height: 55%;
+	width: 65%;
 	background-color: white;
-	height: 35%;
-	width: 70%;
-	padding: 25px 10px;
-	margin: 80px 10px;
+	font-size: 24px;
 }
-div.main .breadcrumb{
-	text-align: left;
+
+footer>.container{
+	height: 137px;
+	background-color: darkgray;
+	display: grid;
+	grid-template-columns: 15% 50% 35%;
+}
+
+.option{
 	margin-top: 20px;
-	margin-left: 40px;
+	margin-bottom: 20px;
 }
 
-div.main div.container{
-	display: grid;
-	grid-template-rows: 2fr 4.5fr 1fr;
-	height: 370px;
-	margin: 0;
-}
-
-footer div.container{
-	display: grid;
-	background: gray;
-	grid-template-columns: 6fr 3fr;
-	margin: 0;
-}
-
-td{
-	border-spacing: 10px;
+table{
 	text-align: left;
 }
