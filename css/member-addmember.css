@@ -4,37 +4,33 @@
 	margin-left: 45px;
 }
 
-}
-div.content{
-	display: grid;
-	grid-template-columns: 4fr 4fr;
-	
+.container{
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: center;
 }
 
-.button3{
-	width: 80px;
-	color: red;
+.input-container{
+	width: 400px;
+}
+
+.input{
+	display: flex;
+	justify-content: space-between;
+	line-height: 35px;
+}
+
+.special{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.button1{
+	height: 30px;
 	background-color: red;
-	color: white;
-	
 }
-
-.content{
-	display: grid;
-	grid-template-columns: 4fr 4fr;
-	
-}
-div	.input{
-	text-align: left;
-	margin-top: 25px;
-	margin-left: 250px;
-	
-
-}
-.button4{
-	width: 80px;
-	color: white;
+.button2{
 	background-color: orange;
-	align-content: right;
 }
 
