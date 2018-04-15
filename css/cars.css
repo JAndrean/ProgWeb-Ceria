@@ -1,8 +1,11 @@
-li:nth-child(3){
+#navMenu li:nth-child(3){
 	background: white !important;
 	color:   #ff471a !important;
 }
 
+#pushDown{
+	height: 125px;
+}
 
 div.main>.container{
 	display: grid;
@@ -14,6 +17,7 @@ div.main>.container{
 	margin-top: 25px;
 	margin-left: 45px;
 	text-align: left;
+	font-weight: bold;
 }
 
 .content{
@@ -27,6 +31,7 @@ div.main>.container{
 	height: 55%;
 	width: 65%;
 	background-color: orange;
+	font-weight: bold;
 	font-size: 24px;
 }
 
@@ -35,6 +40,7 @@ div.main>.container{
 	height: 55%;
 	width: 65%;
 	background-color: white;
+	font-weight: bold;
 	font-size: 24px;
 }
 
