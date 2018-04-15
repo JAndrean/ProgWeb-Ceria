@@ -1,0 +1,39 @@
+#navMenu li:nth-child(3){
+	background: white !important;
+	color:   #ff471a !important;
+}
+
+#pushDown{
+	height: 125px;
+}
+
+.label-list li{
+	text-align: left;
+	padding: 10px;
+}
+
+h3{
+	margin-left: 42px;
+}
+
+footer>.container{
+	height: 137px;
+	background-color: darkgray;
+	display: grid;
+	grid-template-columns: 15% 50% 35%;
+}
+
+div.content{
+	display: grid;
+	grid-template-columns: 30% 60% 10%;
+}
+
+.breadcrumb{
+	margin-top: 25px;
+	margin-left: 45px;
+	text-align: left;
+	font-weight: bold;
+}
+table{
+	text-align: left;
+}
