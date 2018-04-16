@@ -40,45 +40,71 @@
         <div class="container">
             <!-- otak-atik disini aja -->
             <div class="breadcrumb">
-                <a href="home.html">Home</a> <a href="Members.html">/ members </a>  /<a href="member-viewmembers.html"> view members </a>/<a href="member-viewmembersdetails.html"> Details </a> / Edit Member
-                <h3>Edit Member Details</h3>
-                <button> Edit </button>
-                <button> Delete </button>
-              <br>
-
-             
+                <a href="home.html">Home</a>/ <a href="Members.html">members</a> 
+                 / <a href="member-viewmembers.html">view members</a>
+                 / <a href="member-viewmembersdetails.html">Details</a> 
+                 / Edit Member
             </div>
-          
+          <!-- content start -->
           <div class="content">
-            <div class="Picture">
-            Picture<br>
-            <img src="Diospada.jpg">
+              <h2>Edit Member Details</h2>
+                  <button>
+                      Cancel
+                  </button>
+                  <div class="profileImg">
+                      <button>
+                          change
+                      </button>
+                </div>
+                <!-- datalist start -->
+                <div class="dataList">
+                    
+                        <form action="" method="post">
+                            <div class="data">
+                                <p> </p>
+                            </div>
+                            <div class="data">
+                              <p>first name</p>  
+                              <input type="text" name="firstName">
+                            </div>
+                            <div class="data">
+                                <p>last name</p>
+                                <input type="text" name="lastName">
+                            </div>
+                            <div class="data">
+                                <p>idNumber</p>
+                                <input type="text" name="idNumber">
+                            </div>
+                            <div class="data">
+                                <input type="radio" name="male">
+                                <span>male</span>
+                                <input type="radio" name="female">
+                                <span>female</span>
+                            </div>
+                            <div class="data">
+                                <p></p>
+                            </div>
+                            <div class="data">
+                                <p>expiry date</p>
+                                <input type="text" name="expiryDate">
+                            </div>
+                            <button>save</button>
+                        </form>
+                    
+                </div>
+                <!-- datalist end (div atas) -->
+           
             </div>
-            <div class="info">
-              
-                    Member ID
-                    <br>
-                    ID Number <input type="text" name="IDNumber">
-                    <br>
-                    First Name   <input type="text" name="FName">
-                    <br>
-                    Last Name    <input type="text" name="LName">
-                    <br>
-                    Gender   <input type="radio" name="Gender"> Male <input type="radio" name="Gender"> Female
-                    <br>
-                    Join Date    
-                    <br>
-                    Expiry Date  <input type="text" name="LName">
-                
-            </div>
+            <!-- content end (div atas) -->
+        
         </div>
-        <footer>
+    </div>
+    <footer>
             <div class="container">
                 <!-- otak atik disini aja -->
                
                 
             </div>
         </footer>
-    </div>
 </body>
 </html>

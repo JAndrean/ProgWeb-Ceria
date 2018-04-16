@@ -37,52 +37,55 @@
     </header>
     
     <div class="main">
-        <div class="container dalam">
             <!-- otak-atik disini aja -->
             <div class="breadcrumb">
                 <a href="home.html">Home</a>/ <a href="Members.html"> members </a> / add member 
             </div>
+            <!-- content start -->
             <div class="content">
-              <div class="input">
-                <h3>Add member</h3>
-                <button class="button1">Cancel</button>
-              </div>
-              <div class="input-container">
-                <div class="input">
-                  <label>ID Number</label> <input type="text" name="ID">
-                </div>
-                <div class="input">
-                  <label>First Name</label> <input type="text" name="FName">  
-                </div>
-                <div class="input">
-                  <label>Last Name</label> <input type="text" name="Lname">  
-                </div>
-                <div class="input">
-                  <label>Gender</label> 
-                  <div>
-                    <input type="radio" name="Gender">Male
-                    <input type="radio" name="Gender"> Female  
-                  </div>
-                </div>
-                <div>
-                  <label>Join Date</label>
-                </div>
-                <div class="input">
-                  <label>Picture</label> <button>Upload Image </button>
-                </div>
-              </div>
-              <div class="special">
-                <button class="button2">add</button>
-              </div>
+                <div class="container">
+                    <h2>Add Member</h2> 
+                    <!-- datalist start -->
+                    <div class="dataList">
+                        <form>
+                            <div class="data">
+                                <input type="text" name="idNumber" id="idNumber" placeholder="ID Number">
+                            </div>
+                            <div class="data">
+                                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                            </div>
+                            <div class="data">
+                                <input type="text" name="firstName" id="firstName" placeholder="Last Name">
+                            </div>
+                            <div class="data">
+                                <input type="radio" name="female" id="female">
+                                <span>Female</span>
+                                <input type="radio" name="male" id="male">
+                                <span>Male</span>
+                            </div>
+                            <div class="data">
+                                <p>Picture</p>
+                                <div class="picture">
 
-        </div>
-        <footer>
+                                </div>
+                                <input type="file" name="profileImg" id="profileImg">
+                            </div>
+                        </form>
+                    </div>
+                    <!-- datalist end -->
+                </div>
+            </div>
+            <!-- content end -->
+
+              
+    </div>
+
+    <footer>
             <div class="container">
                 <!-- otak atik disini aja -->
                
                 
             </div>
         </footer>
-    </div>
 </body>
 </html>

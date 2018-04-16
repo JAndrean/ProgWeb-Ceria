@@ -4,29 +4,6 @@
 	margin-left: 45px;
 }
 
-}
-div.content{
-	display: grid;
-	grid-template-columns: 4fr 4fr;
-	
-}
-	
 
-.content{
-	display: grid;
-	grid-template-columns: 4fr 4fr;
-	
-}
-div.Picture{
-	text-align: left;
-	margin-top: 25px;
-	margin-left: 45px;
-}
-div.info{
-	text-align: left;
-	margin-top: 25px;
-	margin-left: 45px;
-}
-	
 
 	

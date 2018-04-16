@@ -40,26 +40,39 @@
         <div class="container">
             <!-- otak-atik disini aja -->
             <div class="breadcrumb">
-                <a href="home.html">Home</a> <a href="Members.html">/ members </a> / view members
-                <h3>View Members</h3>
-                <br>
-                 <strong>Find Member</strong>
-              <br>
-              <input type="text" name="search"> <button>Search</button>
-              <br>
-              <br>
-              Sort By<button>Dropdown button (masih salah)</button>
+                <a href="home.html">Home</a> /<a href="Members.html"> members </a> / view members    
+              
             </div>
-          
+          <!-- content start -->
           <div class="content">
-            <table class="tabel">
-              <td>ID</td>
-              <td>Name</td>
-              <td>Join Date</td>
-              <td>Expiry Date</td>
-            </table>
-                 
+           <h2>View Member</h2>
+            
+                    <form action="" method="post">
+                        <div class="search">
+                        <input type="text" name="search"> 
+                        <button>search</button>
+                        </div>
+                        <div>
+                            <h5>sort by </h5>
+                            <div id="sort-box">
+                                <ul id="sort-dd">
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </form>
+                
+                <div class="table">
+                </div>  
+
+            </div>
+            <!-- content end -->
         </div>
+    </div>
+
         <footer>
             <div class="container">
                 <!-- otak atik disini aja -->
@@ -67,6 +80,5 @@
                 
             </div>
         </footer>
-    </div>
 </body>
 </html>
