@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/add_cars.css">
+    <!--<link rel="stylesheet" href="./css/add_cars.css">-->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/index.js"></script>
 </head>
@@ -46,24 +46,30 @@
             <div class="content">
                 <div class="label">
                     <h3>Add Car</h3>
-                    <ul class="label-list">
-                        <li>Car manufacturer</li>
-                        <li>Car brand</li>
-                        <li>Plate number</li>
-                        <li>Plate expiry date</li>
-                        <li>Color</li>
-                        <li>Rental price per day (IDR)</li>
-                        <li>Picture</li>
-                    </ul>
                 </div>
-                <div class="forms"></div>
-                    <!--<input type="text" name="manufacturer">
-                    <input type="text" name="brand">
-                    <input type="text" name="plate">
-                    <input type="text" name="expiry">
-                    <input type="text" name="color">
-                    <input type="text" name="price">-->
-                <div class="button"></div>
+                <div class="forms">
+                    <form action="">
+                        <input type="text" name="manufacturer" placeholder="manufacturer">
+                        <input type="text" name="brand" placeholder="brand">
+                        <input type="text" name="plate" placeholder="plate">
+                        <input type="text" name="expiry" placeholder="plate expiration">
+                        <input type="text" name="color" placeholder="color">
+                        <input type="text" name="price" placeholder="price">
+                        <div id="upl-button">
+                            <input type="submit" name="upload-img" value="upload image">
+                        </div>
+                    </form>
+                </div>
+                <div class="button">
+                    <div>
+                        <input type="submit" name="cancel" value="cancel">
+                    </div>
+                    <div>    
+                        <form action="">
+                            <input type="submit" name="add" value="add">
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
          <footer>
