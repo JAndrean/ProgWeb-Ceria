@@ -1,10 +1,6 @@
-#navMenu li:nth-child(3){
+/*#navMenu li:nth-child(3){
 	background: white !important;
 	color:   #ff471a !important;
-}
-
-#pushDown{
-	height: 125px;
 }
 
 div.main>.container{
@@ -23,7 +19,7 @@ div.main>.container{
 .content{
 	display: grid;
 	grid-template-columns: 50% 50%;
-	background: #ddd;
+	background: gray;
 }
 
 .button1{
