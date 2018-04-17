@@ -27,6 +27,7 @@ div.main>.container{
 	height: 55%;
 	width: 65%;
 	background-color: orange;
+	color: white;
 	font-weight: bold;
 	font-size: 24px;
 }
