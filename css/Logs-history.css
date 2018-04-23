@@ -1,0 +1,21 @@
+.breadcrumb {
+	text-align: left;
+	margin-top: 25px;
+	margin-left: 45px;
+}
+
+
+.button1,.button2{
+	width: 25%;
+	padding: 25px 10px;
+	margin: 80px 10px;
+}
+.button3{
+	width: 10%;
+	background-color: orange;
+	color: white;
+	
+}
+.search{
+	width: 20%;
+}

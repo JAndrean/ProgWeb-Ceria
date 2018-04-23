@@ -41,47 +41,15 @@ main .bgImage {
     text-align: center;
 }
 
-.loginBox {
-    background: rgba(0, 0, 0, 0.5);
-    margin: auto;
-    width: 80%;
-    max-width: 350px;
-    border-radius: 0.5em;
-    padding: 1.5em;
-}
-
-.loginBox form>* {
-    margin: 1.2em 0;
-    border: 0;
-}
-
-.loginBox input {
-    display: inline-block;
-    height: 30px;
-    border-radius: 0.2em;
-    padding: 0.7em;
-    width: 85%;
-    font-size: 1em;
-}
-
-.loginBox #loginButton {
-    width: 100px;
-    font-size: 1.3em;
-    padding: 0.5em;
+.formBox #loginButton {
     border: 1px solid #f5c73c;
     color: #f5c73c;
     background: none;
-    border-radius: 0.2em;
-    -webkit-transition: 100ms ease;
-    -moz-transition: 100ms ease;
-    -o-transition: 100ms ease;
-    transition: 200ms ease;
 }
 
-.loginBox form #loginButton:hover {
+.formBox form #loginButton:hover {
     background: #f5c73c;
     color: #333333;
-    cursor: pointer;
 }
 
 /* media queries */
@@ -106,7 +74,7 @@ main .bgImage {
         align-self: center;
     }
 
-    .loginBox{
+    .formBox{
         grid-column: 7/12;
         align-self: center;
         margin-left: 4em; 
@@ -122,7 +90,7 @@ main .bgImage {
         text-align: left;
     }
 
-    .loginBox #loginButton {
+    .formBox #loginButton {
         margin-top: 2em;
     }
 }

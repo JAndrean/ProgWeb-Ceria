@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Auto Rentals - Home</title>
+
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="../../css/logs-car.css">
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/index.js"></script>
+    <script src="../../js/logs.js"></script>
+</head>
+<body>
+    <header>
+        <div class="topHeader">
+            <div class="container">
+                <div id="brand">
+                    <img src="../../asset/main-logo.png" alt="main logo">
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="container">
+                <ul id="navMenu">
+                    <div><img src="../../asset/icons/dropdown.png" alt="dropdown" id="dropdown"></div>
+                    <li>Rentals</li>
+                    <li>Cars</li>
+                    <li>Members</li>
+                    <li>Accounts</li>
+                    <li>Logs</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div id="pushDown"></div>
+    <div class="main">
+        <div class="container">
+            <!-- otak-atik disini aja -->
+            <div class="breadcrumb">
+                    <a href="../../home.html"> home </a> / logs
+                  </div>
+      
+                    <!-- content start -->
+                <div class="content">
+                      <button class="button1"> View rental history </button>
+                      <button class="button2"> View car status</button>
+                      <!-- car status start -->
+                          <div id="carStatus">
+                              <h3>Car Status </h3>
+                              <h5>find car</h5>
+                              <input type="text" name="history" class="search">
+                              <button class="button4">Search</button>
+      
+                              <h5>sort by</h5>
+                                  <!-- table start -->
+                                  <div class="tableCar">
+      
+                                  </div>   
+                                  <!-- table end -->
+                          </div>
+                          <!-- car status end -->
+
+                           <!-- rental history start -->
+                    <div id="rentalHistory">
+                            <h3>Rental History </h3>
+                            <h5>find rental history</h5>
+                            <input type="text" name="history" class="search">
+                            <button class="button3">Search</button>
+    
+                            <h5>sort by</h5>
+                                <!-- table start -->
+                                <div class="tableHistory">
+    
+                                </div>   
+                                <!-- table end -->
+                        </div>
+                        <!-- rental history end -->
+                  </div>
+                  <!-- content end (div atas) -->     
+        </div>
+    </div>
+
+    <footer>
+            <div class="container">
+                <!-- otak atik disini aja -->
+               
+            </div>
+     </footer>
+
+</body>
+</html>
