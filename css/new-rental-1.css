@@ -1,0 +1,11 @@
+#searchButton {
+    border: 0;
+    background: #e47a17;
+    color: white;
+}
+
+#searchButton:hover {
+    border: 0;
+    background: #d66903;
+    color: white;
+}

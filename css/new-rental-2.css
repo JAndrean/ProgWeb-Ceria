@@ -1,0 +1,9 @@
+.renterDetails form .data:nth-child(1){
+    background: #ccc;
+}
+
+.rentalPrice {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1em 0;
+}
