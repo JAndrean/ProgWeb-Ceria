@@ -2,10 +2,10 @@
 body {
     margin: 0;
     padding: 0;
-    min-width: 300px;
     font-family: 'lato', sans-serif;
     text-align: center;
     overflow-x: hidden;
+    width: 100%;
 }
 
 h1, p {
@@ -28,7 +28,84 @@ ul {
     margin: 0;
 }
 
-/* content */
-.main {
-    z-index: -1;
+a {
+    text-decoration: none;
 }
+
+a:hover {
+    cursor: pointer;
+}
+
+/* content */
+.breadcrumb {
+    text-align: left;
+    padding: 1em;
+}
+
+.breadcrumb a {
+    color: #e47a17;
+    font-weight: bold;
+}
+
+.menuItems {
+    border-top: 1px solid grey;
+    padding: 1em 0;
+}
+
+.menuItems .menuLogo {
+    padding: 1em;
+}
+
+.menuItems .menuLogo img {
+    height: 5em;
+}
+
+.menuItems .menuTitle {
+    font-size: 1.3em;
+    color: #ca4e3d;
+}
+
+form>* {
+    margin: 1.2em 0;
+    border: 0;
+}
+
+.formBox {
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 80%;
+    max-width: 350px;
+    border-radius: 0.5em;
+    padding: 1.5em;
+}
+
+.formBox input {
+    display: inline-block;
+    height: 30px;
+    border-radius: 0.2em;
+    padding: 0.7em;
+    width: 85%;
+    font-size: 1em;
+}
+
+.formBox [type=submit] {
+    width: auto;
+    height: auto;
+    font-size: 1.3em;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    -webkit-transition: 100ms ease;
+    -moz-transition: 100ms ease;
+    -o-transition: 100ms ease;
+    transition: 200ms ease;
+}
+
+.formBox [type=submit]:hover {
+    cursor: pointer;
+}
+
+.dataList {
+    text-align: left;
+    margin: 0 1em;
+}
+
