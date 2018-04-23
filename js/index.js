@@ -7,8 +7,7 @@ $(document).ready(function(){
         }
     });
 
-    $(".main").css({
-        "position":"relative",
-        "top":$("header").outerHeight(true)
+    $("#pushDown").css({
+        "min-height":$("header").outerHeight(true)
     });
 });
