@@ -1,0 +1,58 @@
+#navMenu li:nth-child(3){
+	background: white !important;
+	color:   #ff471a !important;
+}
+
+div.main>.container{
+	display: grid;
+	grid-template-rows: 20% 65% 15%;
+	height: 400px;
+}
+
+.breadcrumb{
+	margin-top: 25px;
+	margin-left: 45px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.content{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background: gray;
+}
+
+.button1{
+	margin-top: 70px; 
+	height: 55%;
+	width: 65%;
+	background-color: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.button2{
+	margin-top: 70px; 
+	height: 55%;
+	width: 65%;
+	background-color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+footer>.container{
+	height: 137px;
+	background-color: darkgray;
+	display: grid;
+	grid-template-columns: 15% 50% 35%;
+}
+
+.option{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+table{
+	text-align: left;
+}
