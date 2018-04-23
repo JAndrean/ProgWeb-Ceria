@@ -10,4 +10,5 @@ $(document).ready(function(){
     $("#pushDown").css({
         "min-height":$("header").outerHeight(true)
     });
+  
 });
